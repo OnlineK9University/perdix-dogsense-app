@@ -701,5 +701,17 @@ document.getElementById("printResult").addEventListener("click",printDetailedRep
 document.getElementById("edit").addEventListener("click",()=>{result.hidden=true;form.scrollIntoView({behavior:"smooth",block:"start"})});
 applyLanguage("el");
 </script>
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker.register("./sw.js")
+      .catch(function (error) {
+        console.error("Service worker registration failed:", error);
+      });
+  });
+}
+</script> 
 </body>
 </html>
+
+
