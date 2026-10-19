@@ -1,0 +1,26 @@
+
+{
+  "id": "/perdix-dogsense-app/",
+  "name": "PERDIX-DogSense Telemetry",
+  "short_name": "PERDIX",
+  "description": "PERDIX-DogSense Telemetry application",
+  "lang": "el",
+  "start_url": "/perdix-dogsense-app/",
+  "scope": "/perdix-dogsense-app/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#020817",
+  "theme_color": "#020817",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
